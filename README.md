@@ -51,7 +51,7 @@
 ## 代码块
 
 ```PowerShell
-# POST /create
+# POST
 Invoke-WebRequest -Uri "https://example.com" -Method Post -ContentType "application/json" -Body '{"example":"https://example.com"}'
 ```
 
